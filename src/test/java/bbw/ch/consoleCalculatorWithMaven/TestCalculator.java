@@ -20,6 +20,10 @@ public class TestCalculator {
 		
 	}
 	
-	
+	@Test
+	public void test_differenz_zweiPositive_OK() {
+		assertTrue(testee.differenz(4, 4) == 0);
+				
+	}
 
 }
