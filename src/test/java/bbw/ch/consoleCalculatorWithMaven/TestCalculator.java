@@ -36,5 +36,10 @@ public class TestCalculator {
 		assertTrue(testee.differenz(-3, -10) == 7);
 	}
 	
+	@Test
+	public void test_multiply_zweiPositive_OK() {
+		assertTrue(testee.multiply(5, 10) == 50);
+	}
+	
 
 }
