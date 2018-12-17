@@ -41,5 +41,8 @@ public class TestCalculator {
 		assertTrue(testee.multiply(5, 10) == 50);
 	}
 	
-
+	@Test
+	public void test_multiply_zweiNegative_OK() {
+		assertTrue(testee.multiply(-5, -10) == 50);
+	}
 }
