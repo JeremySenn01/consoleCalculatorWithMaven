@@ -30,5 +30,11 @@ public class TestCalculator {
 	public void test_summe_zweiNegative_OK() {
 		assertTrue(testee.summe(-3, -10) == -13);
 	}
+	
+	@Test
+	public void test_difference_zweiNegative_OK() {
+		assertTrue(testee.differenz(-3, -10) == 7);
+	}
+	
 
 }
