@@ -1,3 +1,9 @@
 language: java
 sudo: false
 script: mvn install
+deploy:
+  provider: releases
+  user: "JeremySenn01"
+  password: "1Github23"
+  file: "/home/travis/build/JeremySenn01/consoleCalculatorWithMaven/target/consoleCalculatorWithMaven-0.0.1-SNAPSHOT.jar to /home/travis/.m2/repository/bbw/ch/consoleCalculatorWithMaven/0.0.1-SNAPSHOT/consoleCalculatorWithMaven-0.0.1-SNAPSHOT.jar"
+  on: "JeremySenn01/consoleCalculatorWithMaven"
