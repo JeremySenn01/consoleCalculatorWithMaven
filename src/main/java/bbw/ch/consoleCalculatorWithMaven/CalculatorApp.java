@@ -16,6 +16,7 @@ public class CalculatorApp {
 		
 		System.out.println("Summe " + valueA + " + " +  valueB + " = " + calc.summe(valueA, valueB));
 		System.out.println("Differenz " + valueA + " - " +  valueB + " = " + calc.differenz(valueA, valueB));
+		System.out.println("Division " + 40 + " / " + valueB + " = " + + calc.divide(40, valueB));
 
 	}
 }
