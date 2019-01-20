@@ -3,7 +3,8 @@ sudo: false
 script: mvn install
 deploy:
   provider: releases
-  user: "JeremySenn01"
-  password: "1Github23"
-  file: "/home/travis/build/JeremySenn01/consoleCalculatorWithMaven/target/consoleCalculatorWithMaven-0.0.1-SNAPSHOT.jar to /home/travis/.m2/repository/bbw/ch/consoleCalculatorWithMaven/0.0.1-SNAPSHOT/consoleCalculatorWithMaven-0.0.1-SNAPSHOT.jar"
-  on: "JeremySenn01/consoleCalculatorWithMaven"
+  api_key:
+    secure: G+MySfyAqwdVphvmHnDncgClnUQctuXj3zrNpDCzn2vSjxSNqqtuKz7dgc+3od10lY1aCPatH3AmS3VZUPg/DWxYXKU3C5NgolK+u2+qz2N1sDWrDIsRdBt4LGwCXGwoYyw9K901UmMDhbMV+IAfwdbzUHlklRIlBEBV2k0ruMir3XzVJt+lasXY1nUNqsa1ZTqSz8UGN+CN8e5uAx0oXABC5ka2Pvj6dj5031/Bw2AbAKDAFqPLcC+nKH4vfDzl0Nqp4c1/9yGosuuDdJCs92wyHQJCIuN0MnJ5v60nQteIJaWpBCiCk2f5vBiOnBZew2ohww/rdPviUX1o3/pp9LHVEmEy9w3WarFL8hgEQJRANbBciJvxMacmIJEfGLLmmPgo5We7GCD7rKWVvqipXhCwb0qIrJGTb1LFdYjN/j4/Rhw4ryy4vVG2LPev+XruFQb/PUTNjJJId3Rl4GK8K2OIzLqLYAwVnh7BdQ412fsU/PjASRb2pH7dRN164x9K4QQV/KKZqljENkdAbXT3tqV58e4ceU7pKSeK9GJboLNVLLhWyGprRl7/Ai3JGacMSGGTwLHwJJoQGHKUTNdCENtBjr/USestsx1OkENfsJjRHnYeveKvcnf5Oc2TgwKE94TMY8NgCgZJwL1QD+fUdDulm0fMhq3K2+V7ydtNP08=
+  file: "/home/travis/.m2/repository/bbw/ch/consoleCalculatorWithMaven/0.0.1-SNAPSHOT/consoleCalculatorWithMaven-0.0.1-SNAPSHOT.jar"
+  on:
+    repo: JeremySenn01/consoleCalculatorWithMaven
